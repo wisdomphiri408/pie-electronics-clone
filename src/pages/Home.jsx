@@ -258,7 +258,7 @@ const Home = () => {
             className="mb-8"
           >
             <motion.h1
-              className="text-7xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent"
+              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent"
               animate={{
                 textShadow: [
                   "0 0 20px rgba(255,255,255,0.5)",
@@ -273,12 +273,12 @@ const Home = () => {
           </motion.div>
 
           <motion.p
-            className="text-2xl mb-12 text-blue-100 max-w-3xl mx-auto"
+            className="text-xl md:text-2xl mb-12 text-blue-100 max-w-3xl mx-auto"
             initial={{ opacity: 0, y: 30 }}
             animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
-            Discover the latest electronics at amazing prices in Malawi's premier marketplace
+            Discover latest electronics at great prices in Malawi's top marketplace
           </motion.p>
 
           <motion.div
@@ -297,7 +297,7 @@ const Home = () => {
             >
               <Link
                 to="/products"
-                className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-xl hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center gap-3"
+                className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center gap-3"
               >
                 <FaShoppingCart />
                 Shop Now
