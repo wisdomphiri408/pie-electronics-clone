@@ -1,6 +1,5 @@
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
-import axios from 'axios';
 import ProductCard from '../components/ProductCard';
 import { Link } from 'react-router-dom';
 import { FaStar, FaShoppingCart, FaUsers, FaAward, FaRocket, FaShieldAlt } from 'react-icons/fa';
