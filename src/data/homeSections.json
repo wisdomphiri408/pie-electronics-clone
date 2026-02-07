@@ -1,0 +1,128 @@
+{
+  "sections": [
+    {
+      "id": "pc-upgrades",
+      "title": "Upgrade your PC Performance",
+      "url": "/categories/pc-upgrades",
+      "categories": [
+        {
+          "id": "monitor",
+          "name": "Monitor",
+          "image": "https://images.pexels.com/photos/13620268/pexels-photo-13620268.jpeg",
+          "url": "/products/monitors"
+        },
+        {
+          "id": "desktop",
+          "name": "Desktop",
+          "image": "https://picsum.photos/seed/desktop-pc/400/300",
+          "url": "/products/desktop"
+        },
+        {
+          "id": "ram",
+          "name": "RAM",
+          "image": "https://picsum.photos/seed/ram-module/400/300",
+          "url": "/products/ram"
+        },
+        {
+          "id": "hard-drive",
+          "name": "Hard Drive",
+          "image": "https://picsum.photos/seed/hard-drive/400/300",
+          "url": "/products/hard-drive"
+        }
+      ]
+    },
+    {
+      "id": "stay-connected",
+      "title": "Stay connected everywhere",
+      "url": "/categories/connected-devices",
+      "categories": [
+        {
+          "id": "smartphones",
+          "name": "Smartphones",
+          "image": "https://picsum.photos/seed/smartphone/400/300",
+          "url": "/products/smartphones"
+        },
+        {
+          "id": "smartwatches",
+          "name": "Smartwatches",
+          "image": "https://picsum.photos/seed/smartwatch/400/300",
+          "url": "/products/smartwatches"
+        },
+        {
+          "id": "used-phones",
+          "name": "Used Phones",
+          "image": "https://picsum.photos/seed/wireless-earbuds/400/300",
+          "url": "/products/wireless-earbuds"
+        },
+        {
+          "id": "mobile-routers",
+          "name": "Mobile Routers",
+          "image": "https://picsum.photos/seed/mobile-router/400/300",
+          "url": "/products/mobile-routers"
+        }
+      ]
+    },
+    {
+      "id": "work-study",
+      "title": "Work and study anywhere",
+      "url": "/categories/work-study",
+      "categories": [
+        {
+          "id": "laptops",
+          "name": "Laptops",
+          "image": "https://picsum.photos/seed/laptop/400/300",
+          "url": "/products/laptops"
+        },
+        {
+          "id": "tablets",
+          "name": "Tablets",
+          "image": "https://picsum.photos/seed/tablet/400/300",
+          "url": "/products/tablets"
+        },
+        {
+          "id": "student-laptops",
+          "name": "Student laptops",
+          "image": "https://picsum.photos/seed/webcam/400/300",
+          "url": "/products/webcams"
+        },
+        {
+          "id": "Laptop-bags",
+          "name": "Laptop bags",
+          "image": "https://picsum.photos/seed/headphones/400/300",
+          "url": "/products/noise-cancelling-headphones"
+        }
+      ]
+    },
+    {
+      "id": "home-cinema",
+      "title": "Bring cinema at home",
+      "url": "/categories/home-entertainment",
+      "categories": [
+        {
+          "id": "smart-tvs",
+          "name": "Smart TVs",
+          "image": "https://picsum.photos/seed/smart-tv/400/300",
+          "url": "/products/smart-tvs"
+        },
+        {
+          "id": "soundbars",
+          "name": "Soundbars",
+          "image": "https://picsum.photos/seed/soundbar/400/300",
+          "url": "/products/soundbars"
+        },
+        {
+          "id": "gaming-consoles",
+          "name": "Gaming Consoles",
+          "image": "https://picsum.photos/seed/gaming-console/400/300",
+          "url": "/products/gaming-consoles"
+        },
+        {
+          "id": "projectors",
+          "name": "DStv and decoders",
+          "image": "https://picsum.photos/seed/projector/400/300",
+          "url": "/products/projectors"
+        }
+      ]
+    }
+  ]
+}
