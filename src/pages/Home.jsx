@@ -1,8 +1,9 @@
 import { motion, useScroll, useTransform, useInView } from 'framer-motion';
 import { useState, useEffect, useRef } from 'react';
 import ProductCard from '../components/ProductCard';
-import { Link } from 'react-router-dom';
+
 import { FaStar, FaShoppingCart, FaUsers, FaAward, FaRocket, FaShieldAlt } from 'react-icons/fa';
+import Hero from '../components/Hero';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -10,11 +11,10 @@ const Home = () => {
   const y = useTransform(scrollYProgress, [0, 1], ['0%', '50%']);
 
   // Refs for scroll-triggered animations
-  const heroRef = useRef(null);
   const statsRef = useRef(null);
   const featuresRef = useRef(null);
 
-  const isHeroInView = useInView(heroRef, { once: true });
+ 
   const isStatsInView = useInView(statsRef, { once: true });
   const isFeaturesInView = useInView(featuresRef, { once: true });
 
@@ -230,126 +230,7 @@ const Home = () => {
         />
       </div>
 
-      {/* Hero Section */}
-      <motion.section
-        ref={heroRef}
-        style={{ y }}
-        className="relative bg-gradient-to-br from-blue-600 via-purple-700 to-indigo-800 text-white py-32 overflow-hidden"
-      >
-        {/* Animated gradient overlay */}
-        <motion.div
-          animate={{
-            background: [
-              "linear-gradient(45deg, rgba(59,130,246,0.8), rgba(147,51,234,0.8))",
-              "linear-gradient(45deg, rgba(147,51,234,0.8), rgba(59,130,246,0.8))",
-              "linear-gradient(45deg, rgba(59,130,246,0.8), rgba(147,51,234,0.8))"
-            ]
-          }}
-          transition={{ duration: 8, repeat: Infinity, ease: "easeInOut" }}
-          className="absolute inset-0 opacity-30"
-        />
-
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-          <motion.div
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={isHeroInView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.8, type: "spring", stiffness: 100 }}
-            className="mb-8"
-          >
-            <motion.h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent"
-              animate={{
-                textShadow: [
-                  "0 0 20px rgba(255,255,255,0.5)",
-                  "0 0 40px rgba(59,130,246,0.5)",
-                  "0 0 20px rgba(255,255,255,0.5)"
-                ]
-              }}
-              transition={{ duration: 3, repeat: Infinity }}
-            >
-              Welcome to Pie Tech
-            </motion.h1>
-          </motion.div>
-
-          <motion.p
-            className="text-xl md:text-2xl mb-12 text-blue-100 max-w-3xl mx-auto"
-            initial={{ opacity: 0, y: 30 }}
-            animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
-            Discover latest electronics at great prices in Malawi's top marketplace
-          </motion.p>
-
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={isHeroInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-          >
-            <motion.div
-              whileHover={{
-                scale: 1.05,
-                boxShadow: "0 20px 40px rgba(0,0,0,0.3)"
-              }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <Link
-                to="/products"
-                className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center gap-3"
-              >
-                <FaShoppingCart />
-                Shop Now
-              </Link>
-            </motion.div>
-
-            <motion.div
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <Link
-                to="/sell"
-                className="border-2 border-white text-white px-10 py-4 rounded-full font-bold text-xl hover:bg-white hover:text-blue-600 transition-all duration-300 flex items-center gap-3"
-              >
-                <FaRocket />
-                Start Selling
-              </Link>
-            </motion.div>
-          </motion.div>
-        </div>
-
-        {/* Floating elements */}
-        <motion.div
-          animate={{
-            y: [0, -10, 0],
-            rotate: [0, 2, 0]
-          }}
-          transition={{
-            duration: 4,
-            repeat: Infinity,
-            ease: "easeInOut"
-          }}
-          className="absolute bottom-10 left-10 text-6xl opacity-20"
-        >
-          📱
-        </motion.div>
-        <motion.div
-          animate={{
-            y: [0, 10, 0],
-            rotate: [0, -2, 0]
-          }}
-          transition={{
-            duration: 5,
-            repeat: Infinity,
-            ease: "easeInOut",
-            delay: 1
-          }}
-          className="absolute bottom-20 right-20 text-5xl opacity-20"
-        >
-          💻
-        </motion.div>
-      </motion.section>
+      <Hero/>
 
       {/* Stats Section */}
       <motion.section
