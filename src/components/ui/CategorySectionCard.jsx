@@ -22,6 +22,7 @@ const CategorySectionCard = ({ section }) => {
               <img
               src={item.image || "/placeholder.png"}
               alt={item.name}
+              loading="lazy"
               className="w-full h-full object-cover"
               onError={(e) => {
                 e.target.onerror = null;
