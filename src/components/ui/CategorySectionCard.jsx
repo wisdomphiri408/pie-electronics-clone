@@ -13,22 +13,28 @@ const CategorySectionCard = ({ section }) => {
 
       <div className="grid grid-cols-2 gap-2">
         {categories.map((item) => (
-          <Link
-            key={item.id}
-            to={item.url}
-            className="flex flex-col items-center rounded-md hover:scale-105"
+        <Link
+          key={item.id}
+          to={item.url}
+          className="flex flex-col items-center rounded-md hover:scale-105 transition"
           >
-            <img
-              src={item.image || ""}
+            <div className="w-full aspect-square overflow-hidden rounded-md bg-gray-100">
+              <img
+              src={item.image || "/placeholder.png"}
               alt={item.name}
+              className="w-full h-full object-cover"
               onError={(e) => {
                 e.target.onerror = null;
-                e.target.src = "";
+                e.target.src = "/placeholder.png";
               }}
-              className="rounded-md"
-            />
-            <span className="font-medium">{item.name}</span>
+              />
+            </div>
+
+            <span className="font-medium mt-1 text-sm text-center">
+              {item.name}
+            </span>
           </Link>
+
         ))}
       </div>
 

@@ -14,19 +14,19 @@
         {
           "id": "desktop",
           "name": "Desktop",
-          "image": "https://picsum.photos/seed/desktop-pc/400/300",
+          "image": "/public/images/products/dektop-image.png",
           "url": "/products/desktop"
         },
         {
           "id": "ram",
           "name": "RAM",
-          "image": "https://picsum.photos/seed/ram-module/400/300",
+          "image": "https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg",
           "url": "/products/ram"
         },
         {
           "id": "hard-drive",
           "name": "Hard Drive",
-          "image": "https://picsum.photos/seed/hard-drive/400/300",
+          "image": "https://images.pexels.com/photos/35147264/pexels-photo-35147264.jpeg",
           "url": "/products/hard-drive"
         }
       ]
@@ -39,25 +39,25 @@
         {
           "id": "smartphones",
           "name": "Smartphones",
-          "image": "https://picsum.photos/seed/smartphone/400/300",
+          "image": "/public/images/products/phone.png",
           "url": "/products/smartphones"
         },
         {
           "id": "smartwatches",
           "name": "Smartwatches",
-          "image": "https://picsum.photos/seed/smartwatch/400/300",
+          "image": "https://images.pexels.com/photos/31406900/pexels-photo-31406900.jpeg",
           "url": "/products/smartwatches"
         },
         {
           "id": "used-phones",
           "name": "Used Phones",
-          "image": "https://picsum.photos/seed/wireless-earbuds/400/300",
+          "image": "https://images.pexels.com/photos/33358388/pexels-photo-33358388.jpeg",
           "url": "/products/wireless-earbuds"
         },
         {
           "id": "mobile-routers",
           "name": "Mobile Routers",
-          "image": "https://picsum.photos/seed/mobile-router/400/300",
+          "image": "https://images.pexels.com/photos/28348054/pexels-photo-28348054.jpeg",
           "url": "/products/mobile-routers"
         }
       ]
@@ -70,25 +70,25 @@
         {
           "id": "laptops",
           "name": "Laptops",
-          "image": "https://picsum.photos/seed/laptop/400/300",
+          "image": "https://images.pexels.com/photos/249535/pexels-photo-249535.jpeg",
           "url": "/products/laptops"
         },
         {
           "id": "tablets",
           "name": "Tablets",
-          "image": "https://picsum.photos/seed/tablet/400/300",
+          "image": "https://images.pexels.com/photos/10020092/pexels-photo-10020092.jpeg",
           "url": "/products/tablets"
         },
         {
           "id": "student-laptops",
           "name": "Student laptops",
-          "image": "https://picsum.photos/seed/webcam/400/300",
+          "image": "https://images.pexels.com/photos/5905701/pexels-photo-5905701.jpeg",
           "url": "/products/webcams"
         },
         {
           "id": "Laptop-bags",
           "name": "Laptop bags",
-          "image": "https://picsum.photos/seed/headphones/400/300",
+          "image": "https://images.pexels.com/photos/12444592/pexels-photo-12444592.jpeg",
           "url": "/products/noise-cancelling-headphones"
         }
       ]
@@ -101,25 +101,25 @@
         {
           "id": "smart-tvs",
           "name": "Smart TVs",
-          "image": "https://picsum.photos/seed/smart-tv/400/300",
+          "image": "https://images.pexels.com/photos/29942709/pexels-photo-29942709.jpeg",
           "url": "/products/smart-tvs"
         },
         {
           "id": "soundbars",
           "name": "Soundbars",
-          "image": "https://picsum.photos/seed/soundbar/400/300",
+          "image": "https://images.pexels.com/photos/6023354/pexels-photo-6023354.jpeg",
           "url": "/products/soundbars"
         },
         {
           "id": "gaming-consoles",
           "name": "Gaming Consoles",
-          "image": "https://picsum.photos/seed/gaming-console/400/300",
+          "image": "https://images.pexels.com/photos/5961216/pexels-photo-5961216.jpeg",
           "url": "/products/gaming-consoles"
         },
         {
-          "id": "projectors",
-          "name": "DStv and decoders",
-          "image": "https://picsum.photos/seed/projector/400/300",
+          "id": "decoders",
+          "name": "Decoders",
+          "image": "/public/images/products/dstv-decoder.png",
           "url": "/products/projectors"
         }
       ]
