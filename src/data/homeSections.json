@@ -14,7 +14,7 @@
         {
           "id": "desktop",
           "name": "Desktop",
-          "image": "/public/images/products/dektop-image.png",
+          "image": "/images/products/dektop-image.png",
           "url": "/products/desktop"
         },
         {
@@ -39,7 +39,7 @@
         {
           "id": "smartphones",
           "name": "Smartphones",
-          "image": "/public/images/products/phone.png",
+          "image": "/images/products/phone.png",
           "url": "/products/smartphones"
         },
         {
@@ -119,7 +119,7 @@
         {
           "id": "decoders",
           "name": "Decoders",
-          "image": "/public/images/products/dstv-decoder.png",
+          "image": "/images/products/dstv-decoder.png",
           "url": "/products/projectors"
         }
       ]
