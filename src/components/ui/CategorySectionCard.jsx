@@ -52,6 +52,9 @@ const CategoryItem = ({ item }) => {
           src={item.image || "/placeholder.png"}
           alt={item.name}
           loading="lazy"
+          decoding="async"
+          width="400"
+          height="300"
           onLoad={() => setImageLoaded(true)}
           onError={(e) => {
             e.target.onerror = null;
