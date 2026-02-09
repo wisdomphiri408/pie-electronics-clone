@@ -8,7 +8,7 @@
         {
           "id": "monitor",
           "name": "Monitor",
-          "image": "https://images.pexels.com/photos/13620268/pexels-photo-13620268.jpeg",
+          "image": "https://images.pexels.com/photos/13620268/pexels-photo-13620268.jpeg?w=400&h=300",
           "url": "/products/monitors"
         },
         {
@@ -20,13 +20,13 @@
         {
           "id": "ram",
           "name": "RAM",
-          "image": "https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg",
+          "image": "https://images.pexels.com/photos/19716297/pexels-photo-19716297.jpeg?w=400&h=300",
           "url": "/products/ram"
         },
         {
           "id": "hard-drive",
           "name": "Hard Drive",
-          "image": "https://images.pexels.com/photos/35147264/pexels-photo-35147264.jpeg",
+          "image": "https://images.pexels.com/photos/35147264/pexels-photo-35147264.jpeg?w=400&h=300",
           "url": "/products/hard-drive"
         }
       ]
@@ -45,19 +45,19 @@
         {
           "id": "smartwatches",
           "name": "Smartwatches",
-          "image": "https://images.pexels.com/photos/31406900/pexels-photo-31406900.jpeg",
+          "image": "https://images.pexels.com/photos/31406900/pexels-photo-31406900.jpeg?w=400&h=300",
           "url": "/products/smartwatches"
         },
         {
           "id": "used-phones",
           "name": "Used Phones",
-          "image": "https://images.pexels.com/photos/33358388/pexels-photo-33358388.jpeg",
+          "image": "https://images.pexels.com/photos/33358388/pexels-photo-33358388.jpeg?w=400&h=300",
           "url": "/products/wireless-earbuds"
         },
         {
           "id": "mobile-routers",
           "name": "Mobile Routers",
-          "image": "https://images.pexels.com/photos/28348054/pexels-photo-28348054.jpeg",
+          "image": "https://images.pexels.com/photos/28348054/pexels-photo-28348054.jpeg?w=400&h=300",
           "url": "/products/mobile-routers"
         }
       ]
@@ -70,25 +70,25 @@
         {
           "id": "laptops",
           "name": "Laptops",
-          "image": "https://images.pexels.com/photos/249535/pexels-photo-249535.jpeg",
+          "image": "https://images.pexels.com/photos/249535/pexels-photo-249535.jpeg?w=400&h=300",
           "url": "/products/laptops"
         },
         {
           "id": "tablets",
           "name": "Tablets",
-          "image": "https://images.pexels.com/photos/10020092/pexels-photo-10020092.jpeg",
+          "image": "https://images.pexels.com/photos/10020092/pexels-photo-10020092.jpeg?w=400&h=300",
           "url": "/products/tablets"
         },
         {
           "id": "student-laptops",
           "name": "Student laptops",
-          "image": "https://images.pexels.com/photos/5905701/pexels-photo-5905701.jpeg",
+          "image": "https://images.pexels.com/photos/5905701/pexels-photo-5905701.jpeg?w=400&h=300",
           "url": "/products/webcams"
         },
         {
           "id": "Laptop-bags",
           "name": "Laptop bags",
-          "image": "https://images.pexels.com/photos/12444592/pexels-photo-12444592.jpeg",
+          "image": "https://images.pexels.com/photos/12444592/pexels-photo-12444592.jpeg?w=400&h=300",
           "url": "/products/noise-cancelling-headphones"
         }
       ]
@@ -101,25 +101,25 @@
         {
           "id": "smart-tvs",
           "name": "Smart TVs",
-          "image": "https://images.pexels.com/photos/29942709/pexels-photo-29942709.jpeg",
+          "image": "https://images.pexels.com/photos/29942709/pexels-photo-29942709.jpeg?w=400&h=300",
           "url": "/products/smart-tvs"
         },
         {
           "id": "soundbars",
           "name": "Soundbars",
-          "image": "https://images.pexels.com/photos/6023354/pexels-photo-6023354.jpeg",
+          "image": "https://images.pexels.com/photos/6023354/pexels-photo-6023354.jpeg?w=400&h=300",
           "url": "/products/soundbars"
         },
         {
           "id": "gaming-consoles",
           "name": "Gaming Consoles",
-          "image": "https://images.pexels.com/photos/5961216/pexels-photo-5961216.jpeg",
+          "image": "https://images.pexels.com/photos/5961216/pexels-photo-5961216.jpeg?w=400&h=300",
           "url": "/products/gaming-consoles"
         },
         {
           "id": "decoders",
           "name": "Decoders",
-          "image": "/images/products/dstv-decoder.png",
+          "image": "/images/products/dstv-decoder.png?w=400&h=300",
           "url": "/products/projectors"
         }
       ]
