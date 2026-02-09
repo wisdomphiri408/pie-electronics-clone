@@ -4,13 +4,13 @@ import SearchBar from './SearchBar';
 import UserProfile from './ui/profile';
 import {ShoppingCart} from "lucide-react"
 
+import { useAuth } from '../context/AuthContext';
 
 const Navbar = () => {
   //const { getTotalItems } = useCart();
   //const user = JSON.parse(localStorage.getItem('user'));
 
-  const isUser = false;
- 
+  const { isLoggedIn } = useAuth();
 
   return (
     <nav className="bg-blue-900 shadow-md sticky top-0 z-50">
@@ -28,7 +28,7 @@ const Navbar = () => {
 
           {/* Right side - Cart and Login/Logout */}
           <div className="flex items-center space-x-4">
-            {isUser ? (
+            {isLoggedIn? (
               <div className="flex items-end space-x-4">
                 <UserProfile />
                 <Link to='/' className='flex flex-col items-center'>

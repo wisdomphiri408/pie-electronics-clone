@@ -5,7 +5,14 @@ import toast from 'react-hot-toast';
 import { motion } from 'framer-motion';
 import { FaEye, FaEyeSlash, FaUser, FaLock } from 'react-icons/fa';
 
+{/* Fake login */}
+import { useAuth } from '../context/AuthContext';
+
 const Login = () => {
+
+  {/* Fake login code */}
+  const { isLoggedIn, toggleLogin } = useAuth();
+
   const [formData, setFormData] = useState({
     email: '',
     password: ''
@@ -184,6 +191,15 @@ const Login = () => {
               </Link>
             </p>
           </motion.div>
+
+          {/* Fake login */}
+          <button
+            onClick={toggleLogin}
+            className="px-3 py-1 rounded-md text-sm bg-blue-600 text-white"
+          >
+            {isLoggedIn ? "Logout (test)" : "Login (test)"}
+          </button>
+
         </div>
       </motion.div>
     </div>

@@ -2,8 +2,12 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+import { useAuth } from '../context/AuthContext';
+
 const Hero = () => {
   const [isLoaded, setIsLoaded] = useState(false);
+
+  const { isLoggedIn } = useAuth();
 
   // Trigger animation immediately on component mount
   useEffect(() => {
@@ -60,24 +64,28 @@ const Hero = () => {
             Discover latest electronics at great prices in Malawi&apos;s top marketplace
           </motion.p>
 
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            animate={isLoaded ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex flex-col sm:flex-row gap-6 justify-center items-center"
-          >
+          {isLoggedIn ?(
+              <div></div>
+          ):(
             <motion.div
-              whileTap={{ scale: 0.95 }}
-              transition={{ type: 'spring', stiffness: 300 }}
+              initial={{ opacity: 0, y: 50 }}
+              animate={isLoaded ? { opacity: 1, y: 0 } : {}}
+              transition={{ duration: 0.8, delay: 0.6 }}
+              className="flex flex-col sm:flex-row gap-6 justify-center items-center"
             >
-              <Link
-                to="/login"
-                className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center gap-3 hover:scale-110"
+              <motion.div
+                whileTap={{ scale: 0.95 }}
+                transition={{ type: 'spring', stiffness: 300 }}
               >
-                Sign In
-              </Link>
+                <Link
+                  to="/login"
+                  className="bg-white text-blue-600 px-10 py-4 rounded-full font-bold text-lg hover:bg-blue-50 transition-all duration-300 shadow-2xl hover:shadow-3xl flex items-center gap-3 hover:scale-110"
+                >
+                  Sign In
+                </Link>
+              </motion.div>
             </motion.div>
-          </motion.div>
+          )}
         </div>
       </motion.section>
     </div>
